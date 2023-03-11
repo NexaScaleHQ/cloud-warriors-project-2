@@ -18,8 +18,8 @@
 
 - Set up the necessary Azure infrastructure to host your web application in a container. This may include creating an Azure Container Instance, a Kubernetes cluster, or other Azure resources.
 
-
 - Configure your web application to run in the container, and make any necessary changes to your application code to ensure it can run in a containerized environment.
 
-
 - Test CI/CD pipeline by making changes to your web application code and verifying that the changes are successfully built, tested, and deployed to Azure Container.
+
+<img width="1200" alt="Screenshot 2023-03-05 at 14 45 40" src="https://raw.githubusercontent.com/pidoxy/Architecture-Diagrams/main/Azure%20DevOps%20CI/CD-Page-2.drawio.svg">
