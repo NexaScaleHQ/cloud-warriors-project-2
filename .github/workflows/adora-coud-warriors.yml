@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - adora-coud-warriors
+name: Build and deploy Node.js app to Azure Web App - adoraCloudExpressApp
 
 on:
   push:
@@ -50,7 +50,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'adora-coud-warriors'
+          app-name: 'adoraCloudExpressApp'
           slot-name: 'production'
           publish-profile: ${{ secrets.AzureAppService_PublishProfile_61f21413a37242bf8fd82b57aee63b85 }}
           package: .
