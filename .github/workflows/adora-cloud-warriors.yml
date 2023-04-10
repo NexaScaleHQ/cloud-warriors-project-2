@@ -14,12 +14,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./adoraCloudExpressApp
-
-env:
-  AZURE_WEBAPP_NAME: adora-cloud-warriors   # set this to your application's name
-  AZURE_WEBAPP_PACKAGE_PATH: './adoraCloudExpressApp'      # set this to the path to your web app project, defaults to the repository root
-  NODE_VERSION: '18.x'                # set this to the node version to use
+    working-directory: ./adoraCloudExpressApp              # set this to the node version to use
 
 jobs:
   build:
