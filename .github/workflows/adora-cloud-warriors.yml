@@ -7,7 +7,6 @@ on:
       - main
   workflow_dispatch:
 
-working-directory: ./adoraCloudExpressApp # set to the folder with your app if it is not the root directory
 
 jobs:
   build:
